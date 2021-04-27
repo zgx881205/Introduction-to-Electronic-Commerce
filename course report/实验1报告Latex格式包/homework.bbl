@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{tang2015extreme}
+Jiexiong Tang, Chenwei Deng, and Guang-Bin Huang.
+\newblock Extreme learning machine for multilayer perceptron.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  27(4):809--821, 2015.
+
+\bibitem{li2017neural}
+Jing Li, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Tao Lian, and Jun Ma.
+\newblock Neural attentive session-based recommendation.
+\newblock In {\em Proceedings of the 26th ACM on Conference on Information and
+  Knowledge Management}, pages 1419--1428. ACM, 2017.
+
+\bibitem{guo2019buying}
+Long Guo, Lifeng Hua, Rongfei Jia, Binqiang Zhao, Xiaobo Wang, and Bin Cui.
+\newblock Buying or browsing?: Predicting real-time purchasing intent using
+  attention-based deep network with multiple behavior.
+\newblock In {\em Proceedings of the 25th ACM SIGKDD International Conference
+  on Knowledge Discovery \& Data Mining}, pages 1984--1992, 2019.
+
+\end{thebibliography}
