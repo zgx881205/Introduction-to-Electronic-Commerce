@@ -1,0 +1,130 @@
+\documentclass{article}
+
+%
+% 引入模板的style文件
+%
+\usepackage{homework}
+
+
+%
+% 封面
+%
+
+\title{
+	\includegraphics[scale = 0.45]{images/title/ucas-logo1.png}\\
+    \vspace{1in}
+    \textmd{\textbf{\hmwkClass\ \hmwkTitle}}\\
+    \textmd{\textbf{\hmwkSubTitle}}\\
+    \normalsize\vspace{0.1in}\small{\hmwkCompleteTime }\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor\ }}\\
+    \vspace{3in}
+}
+
+\author{\hmwkAuthorName \\ 
+	\hmwkAuthorStuID}
+\date{}
+
+\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+
+
+%
+% 正文部分
+%
+\begin{document}
+
+
+\maketitle
+
+
+%\include{chapters/ch01}
+
+
+\pagebreak
+
+\begin{homeworkProblem}
+\textbf{1.	常见的关联规则算法有哪些？举例说明关联规则算法在电子商务领域中的应用。}\\
+	\textbf{Solution:}\\
+	{\color{blue}	
+  
+    }
+\end{homeworkProblem}
+\pagebreak
+
+\begin{homeworkProblem}
+	\textbf{2. 求出表~\ref{coldstartuser}中购买“鲜花”的支持度；购买“慰问卡”的支持度；计算同时购买“鲜花”和购买“慰问卡”支持度和置信度；
+	}\\
+	\begin{table}[htbp!]
+		\centering
+		\caption{购买清单表}
+		\label{coldstartuser}
+		\begin{tabular}{c|c}
+			\hline
+			事务ID & 购买物品清单   \\
+			\hline
+			1   & 鲜花、慰问卡、苏打水    \\
+			2  & 毛线玩具熊、鲜花、气球、糖果 \\
+			3  & 慰问卡、糖果、鲜花     \\
+			4 & 毛线玩具熊、气球、苏打水	 \\
+			5 &  鲜花、慰问卡、苏打水 \\
+			\hline
+		\end{tabular}%\vspace{-0.3cm}
+	\end{table}
+	\textbf{Solution:}\\
+	{\color{blue}	
+	(1)购买“鲜花”的支持度:     \\
+	\begin{center}
+		\begin{eqnarray}
+        \text{support(鲜花)}=
+		\end{eqnarray}
+	\end{center}
+	(2)购买“慰问卡”的支持度:         \\
+		\begin{center}
+		\begin{eqnarray}
+			\text{support(慰问卡)}=
+		\end{eqnarray}
+	\end{center}
+	(3)同时购买“鲜花”和购买“慰问卡”支持度和置信度 \\
+			\begin{center}
+		\begin{eqnarray}
+			\text{support(鲜花$\cup$慰问卡)}=
+		\end{eqnarray}
+	\end{center}
+    
+			\begin{center}
+	\begin{eqnarray}
+		\text{confidence(鲜花$\cup$慰问卡)}=
+	\end{eqnarray}
+\end{center}
+}
+	
+\end{homeworkProblem}
+
+
+\pagebreak
+
+\begin{homeworkProblem}
+\textbf{3.	监督学习和无监督学习的区别？常见的监督学习和无监督学习的算法有哪些？}\\
+\textbf{Solution:}\\
+{\color{blue}
+
+}
+
+
+\end{homeworkProblem}
+\pagebreak
+
+\begin{homeworkProblem}
+\textbf{4. 常见的分类模型有哪些？分析这些分类模型的特点。}\\
+\textbf{Solution:}\\
+{\color{blue}
+
+}
+\end{homeworkProblem}
+
+
+% 引用文献
+\bibliographystyle{unsrt}  % unsrt:根据引用顺序编号
+\bibliography{refs}
+
+
+\end{document}
