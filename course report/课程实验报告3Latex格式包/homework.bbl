@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{pedregosa2011scikit}
+Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, et~al.
+\newblock Scikit-learn: Machine learning in python.
+\newblock {\em the Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
+\bibitem{likas2003global}
+Aristidis Likas, Nikos Vlassis, and Jakob~J Verbeek.
+\newblock The global k-means clustering algorithm.
+\newblock {\em Pattern Recognition}, 36(2):451--461, 2003.
+
+\end{thebibliography}
