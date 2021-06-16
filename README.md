@@ -7,4 +7,4 @@ numpy 1.19.5
 
 scikit-learn 0.22
 
-scikit-learn 1.1.1
+scikit-surprise 1.1.1
