@@ -1,0 +1,79 @@
+\documentclass{article}
+
+%
+% 引入模板的style文件
+%
+\usepackage{url}
+\usepackage{homework}
+\usepackage{enumerate}
+\usepackage{amsmath}
+%
+% 封面
+%
+
+\title{
+	\includegraphics[scale = 0.45]{images/title/ucas-logo1.png}\\
+    \vspace{1in}
+    \textmd{\textbf{\hmwkClass\ \hmwkTitle}}\\
+    \textmd{\textbf{\hmwkSubTitle}}\\
+    \normalsize\vspace{0.1in}\small{\hmwkCompleteTime }\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor\ }}\\
+    \vspace{3in}
+}
+
+\author{\hmwkAuthorName \\ 
+	\hmwkAuthorStuID}
+\date{}
+
+\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+
+
+%
+% 正文部分
+%
+\begin{document}
+
+
+\maketitle
+
+
+%\include{chapters/ch01}
+
+
+\pagebreak
+
+\begin{homeworkProblem}
+ \noindent\textbf{1.什么的协同过滤(Collaborative Filtering)推荐算法？分别阐释基于用户的协同过滤算法(User-based Collaborative Filtering, UCF)~\cite{G_UCF}和基于项目的协同过滤算法(Item-based Collaborative Filtering, ICF)~\cite{linden2003amazon}的原理。}\\
+\textbf{Solution:}
+{\color{blue}
+\begin{itemize}
+	\item [(1)]协同过滤:
+	\item [(2)]UCF:
+	\item [(3)]ICF:
+\end{itemize}
+
+}
+\end{homeworkProblem}
+
+\pagebreak
+
+
+\begin{homeworkProblem}
+ \noindent\textbf{2.使用Python中的scikit-surprise库~\cite{Hug2020}加载电影评分数据集``ml-100k"，并采用库中的$train\_test\_split$函数以4:1的比例划分训练集和测试集,分别使用UCF和ICF在训练集上进行模型的训练，在测试集采用MAE的指标对模型进行评价，同时输出测试集中每一个用户Top-5的电影推荐列表。}\\
+\textbf{Solution:}
+{\color{blue} 
+\begin{itemize}
+	\item [(1)]UCF:
+	\item [(2)]ICF:
+\end{itemize}
+}
+
+
+\end{homeworkProblem}
+
+% 引用文献
+\bibliographystyle{unsrt}  % unsrt:根据引用顺序编号
+\bibliography{refs}
+
+
+\end{document}

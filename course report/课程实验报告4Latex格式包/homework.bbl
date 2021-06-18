@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{G_UCF}
+Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, and John
+  Riedl.
+\newblock Grouplens: An open architecture for collaborative filtering of
+  netnews.
+\newblock In {\em Proceedings of the 1994 ACM Conference on Computer Supported
+  Cooperative Work}, pages 175--186. ACM, 1994.
+
+\bibitem{linden2003amazon}
+Greg Linden, Brent Smith, and Jeremy York.
+\newblock Amazon.com recommendations: Item-to-item collaborative filtering.
+\newblock {\em IEEE Internet Computing}, 7(1):76--80, 2003.
+
+\bibitem{Hug2020}
+Nicolas Hug.
+\newblock Surprise: A python library for recommender systems.
+\newblock {\em Journal of Open Source Software}, 5(52):2174, 2020.
+
+\end{thebibliography}
